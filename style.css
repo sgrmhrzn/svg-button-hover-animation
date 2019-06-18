@@ -1,0 +1,41 @@
+svg{
+    width:200px;
+    height:150px;
+    display:block;
+  }
+  
+  svg .circle{
+    fill:#aa7900;
+    cx:25;
+    cy:25;
+    r:40;
+    transition: 0.5s;
+    filter:url(#shadow);
+  }
+
+  
+  .bulb:hover {
+       cursor:pointer;
+        
+  }
+
+  .bulb:hover .circle{
+    fill:#d09b15;
+    transition: 0.5s;
+    r:70;
+    cx:55;
+}
+
+  .bulb:hover .txt{
+    display:block;
+    transition:0.5s;
+    
+  }
+  .bulb:ative{
+    fill:black;
+  }
+  .txt{
+     display:none;
+     font: italic 20px serif;
+  }
+  
